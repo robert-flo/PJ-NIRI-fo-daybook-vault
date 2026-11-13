@@ -1,18 +1,17 @@
 ---
-title: About / 关于
-date: 2026-06-14
+title: Acerca de / About
+date: 2026-11-13
 tags:
-summary: Hello，welcome to my daybook！你好，欢迎来到我的博客！这是一个由 Go 构建的静态博客，也是我用来托管 Obsidian 笔记的个人知识库。
+summary: Un daybook de desarrollo escrito por un estudiante de El Salvador que aprende leyendo, desarmado y reproduciendo proyectos ajenos.
 draft: false
-updated: 2026-06-28
+updated: 2026-11-13
 lang: zh_CN
 ---
-这是一个由 Go 构建的静态博客，也是我用来托管 Obsidian 笔记的个人知识库。
 
-搭建这个网站的初衷是为了托管我的笔记。
+Empecé este sitio por una razón simple: quería un lugar público para mis notas.
 
-因为我的水平不高，很多时候都是通过阅读、拆解和复现优秀项目来理解它们的实现方式并不断学习。所以为了能有一个专门记录的地方，我使用 Obsidian 来记录笔记并搭建了这个网站来进行托管。
+Estudio y desarrollo software en San Salvador, y la forma en que aprendo es leer proyectos de otros, desarmarlos hasta ver por qué funcionan y reproducir lo que me sirve. Ese proceso antes vivía en carpetas privadas de Obsidian que nadie más veía. Ahora lo escribo aquí, con el detalle que me habría ahorrado tiempo la primera vez que lo intenté.
 
-我找了许多博客的模板但大都没有很好的适配 Obsidian 的写作方式，所以我自己构建了这个网站，它兼容了 Obsidian 的大部分功能，包括双链、关系图谱、callout、嵌入块等，让笔记在网页上也能保留原本的组织方式和阅读体验。
+Probé otras opciones antes de daybook: un blog con Jekyll, GitHub Pages, un repo propio para amarrar proyectos. Ninguna respetaba cómo escribo en Obsidian, con notas que se citan entre sí y un grafo que crece solo. daybook toma el vault tal cual y lo publica con backlinks, grafo, callouts y RSS, así que una nota se lee igual en la web que en el editor.
 
-这里的内容不一定总是最优解，也可能会随着我的理解不断修正。希望这里的某篇笔记能刚好帮到你。
+Nada aquí es una versión final. Una nota puede cambiar cuando entienda mejor el tema, y mostrar ese cambio es parte del punto. Si alguna te ahorra el tropiezo que a mí me costó, hizo su trabajo.

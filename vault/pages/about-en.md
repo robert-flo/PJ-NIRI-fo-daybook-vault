@@ -1,16 +1,17 @@
 ---
-title: About / 关于
-date: 2026-06-14
+title: Acerca de / About
+date: 2026-11-13
 tags:
-summary: Hello，welcome to my daybook！你好，欢迎来到我的博客！This is a static blog built with Go, and also my personal knowledge base for hosting my Obsidian notes.
+summary: A dev daybook by a student in El Salvador who learns by reading, taking apart, and rebuilding other people's projects.
 draft: false
-updated: 2026-06-28
+updated: 2026-11-13
 lang: en_US
 ---
-The original purpose of building this site was simple: I wanted a place to host my notes.
 
-Since I am still learning, I often try to understand how things work by reading, breaking down, and reproducing excellent projects created by others. To keep a dedicated record of this process, I use Obsidian to write my notes and built this website to host them.
+I started this site for a simple reason: I wanted a public place for my notes.
 
-I tried many blog templates, but most of them did not fit well with the way I write in Obsidian. So I decided to build this site myself. It supports many of the Obsidian features I use, including backlinks, a graph view, callouts, embedded blocks, and more, allowing my notes to preserve their original structure and reading experience on the web.
+I study and build software in San Salvador. The way I learn is to read projects other people wrote, take them apart until I see why they work, and rebuild the parts that are useful to me. That process used to live in private Obsidian folders nobody else saw. Now I write it here, with the detail that would have saved me time the first time I tried.
 
-The content here may not always be the best solution, and it may be revised as my understanding continues to grow. I hope that one of these notes happens to be helpful to you.
+I tried other options before daybook: a Jekyll blog, GitHub Pages, a repo of my own to tie projects together. None of them respected how I write in Obsidian, with notes that cite each other and a graph view. daybook takes the vault as it is and publishes it with backlinks, a graph, callouts, and RSS, so a note reads the same on the web as it does in the editor.
+
+Nothing here is a final version. A note can change whenever my understanding of the topic improves, and showing that change is part of the point. If one of them saves you the stumble it cost me, it did its job.
