@@ -1,21 +1,21 @@
 site:
-  url: "https://daybook.page"
+  url: ""
   startedAt: "2024-01-01"
   favicon: ""
-  copyright: "© 2026 StatIndet"
+  copyright: "© 2026 Robert Flores"
 
 github:
-  username: "StatIndet"
+  username: "robert-flo"
   tokenEnv: "GITHUB_TOKEN"
 
 # The homepage identity and SEO description come from GitHub.
 # Keep the persistent Daybook logo and page footer preferences here.
 profile:
   author:
-    logoText: "Daybook"
+    logoText: "Robert Flores"
 
 comment:
-  enabled: true
+  enabled: false
   provider: "giscus"
   giscus:
     repo: "StatIndet/giscus"
