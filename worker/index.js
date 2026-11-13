@@ -100,6 +100,11 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
+    // Land visitors on the English edition; the Chinese tree stays reachable at its own paths.
+    if (url.pathname === '/' || url.pathname === '/index.html') {
+      return Response.redirect(new URL('/en_US/', request.url).toString(), 302);
+    }
+
     if (url.pathname === '/api/likes') return handleLikes(request, env, hashVisitorToken);
     if (url.pathname === '/api/privacy') return handlePrivacy(request, env, hashVisitorToken);
 
