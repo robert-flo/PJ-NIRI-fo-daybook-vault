@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "daybook:setup": "bash scripts/setup-daybook.sh",
-    "build": "npm run daybook:setup && ./.daybook/bin/daybook build",
+    "build": "npm run daybook:setup && ./.daybook/bin/daybook setup-og --user-deps && ./.daybook/bin/daybook build",
     "db:migrate": "wrangler d1 migrations apply DB --remote",
     "deploy": "npm run db:migrate && wrangler deploy",
     "dev": "wrangler dev",
