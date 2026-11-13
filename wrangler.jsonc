@@ -19,7 +19,7 @@
     {
       "binding": "DB",
       "database_name": "daybook-stats",
-      "database_id": "00000000-0000-0000-0000-000000000000"
+      "database_id": "e13eeb32-e112-4dd8-8f36-a30c244f59b9"
     }
   ],
   "observability": {
@@ -47,11 +47,12 @@
   ],
   "kv_namespaces": [
     {
-      "binding": "GITHUB_CACHE"
+      "binding": "GITHUB_CACHE",
+      "id": "4bb4c81ff8b34d92a62611351a6eca15"
     }
   ],
   "vars": {
-    "GITHUB_USERNAME": "StatIndet"
+    "GITHUB_USERNAME": "robert-flo"
   },
   "triggers": {
     "crons": [
